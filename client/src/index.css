@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #09090b;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  /* Sleek custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #09090b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f3f46;
+  }
+}
+
+@layer utilities {
+  /* Antigravity Glassmorphism */
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card {
+    background-color: rgba(18, 18, 21, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+  }
+
+  .glass-card-hover {
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card-hover:hover {
+    border-color: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 0 20px -5px rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .glass-input {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    transition: all 0.15s ease-in-out;
+  }
+
+  .glass-input:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.07);
+  }
+}
