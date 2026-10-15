@@ -37,11 +37,11 @@ export const AuthPage = () => {
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-1">
             <Sparkles className="w-3.5 h-3.5 text-zinc-300" />
             <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-300">
-              Antigravity Security Shield
+              Cineva Security Shield
             </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-            {activeTab === 'login' ? 'Access Your Screenings' : 'Join Antigravity Cinemas'}
+            {activeTab === 'login' ? 'Access Your Screenings' : 'Join Cineva Cinemas'}
           </h1>
           <p className="text-xs text-zinc-400">
             {activeTab === 'login'

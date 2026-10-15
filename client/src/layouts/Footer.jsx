@@ -13,11 +13,11 @@ export const Footer = () => {
                 <Film className="w-4 h-4" />
               </div>
               <span className="text-sm font-bold tracking-wider uppercase text-white">
-                Antigravity Cinemas
+                Cineva Cinemas
               </span>
             </div>
             <p className="text-xs text-zinc-400 max-w-sm leading-relaxed">
-              High-performance, ultra-sleek movie ticket booking platform built with the MERN stack and Antigravity Dark Obsidian design system.
+              High-performance, ultra-sleek movie ticket booking platform built with the MERN stack and Cineva Dark Obsidian design system.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-          <p>© {new Date().getFullYear()} Antigravity Cinemas Platform. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Cineva Cinemas Platform. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
               Engineered with precision for cinema lovers

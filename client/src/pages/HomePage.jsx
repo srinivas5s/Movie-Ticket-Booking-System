@@ -43,7 +43,7 @@ export const HomePage = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
             <Sparkles className="w-3.5 h-3.5 text-zinc-300" />
             <span className="text-[11px] font-semibold uppercase tracking-widest text-zinc-300">
-              Antigravity Design System Active
+              Cineva Design System Active
             </span>
           </div>
 
@@ -140,7 +140,7 @@ export const HomePage = () => {
             </CardContent>
           </Card>
 
-          {/* Antigravity Design System UI Primitives Showcase */}
+          {/* Cineva Design System UI Primitives Showcase */}
           <Card hoverable className="lg:col-span-2">
             <CardHeader>
               <div className="flex items-center gap-2">
@@ -148,7 +148,7 @@ export const HomePage = () => {
                 <CardTitle>Design System Primitives</CardTitle>
               </div>
               <CardDescription>
-                Verified Antigravity Dark Obsidian UI components built for Phase 1.
+                Verified Cineva Dark Obsidian UI components built for Phase 1.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">

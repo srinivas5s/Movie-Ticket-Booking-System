@@ -8,7 +8,7 @@ const startServer = async () => {
     await connectDB();
 
     const server = app.listen(env.PORT, () => {
-      console.log(`[Server] Antigravity API running on port ${env.PORT} in ${env.NODE_ENV} mode`);
+      console.log(`[Server] Cineva API running on port ${env.PORT} in ${env.NODE_ENV} mode`);
       console.log(`[Server] Health check available at: http://localhost:${env.PORT}/api/v1/health`);
     });
 

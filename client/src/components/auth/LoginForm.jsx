@@ -89,14 +89,14 @@ export const LoginForm = ({ onSuccess }) => {
         <div className="grid grid-cols-2 gap-2">
           <button
             type="button"
-            onClick={() => fillCredentials('user@antigravity.cinemas', 'password123')}
+            onClick={() => fillCredentials('user@Cineva.cinemas', 'password123')}
             className="px-2.5 py-1.5 rounded-lg bg-white/[0.03] hover:bg-white/[0.08] border border-white/10 text-[11px] text-zinc-300 hover:text-white transition-colors text-left"
           >
             👤 Demo User
           </button>
           <button
             type="button"
-            onClick={() => fillCredentials('admin@antigravity.cinemas', 'admin123')}
+            onClick={() => fillCredentials('admin@Cineva.cinemas', 'admin123')}
             className="px-2.5 py-1.5 rounded-lg bg-white/[0.03] hover:bg-white/[0.08] border border-white/10 text-[11px] text-zinc-300 hover:text-white transition-colors text-left"
           >
             🛡️ Demo Admin

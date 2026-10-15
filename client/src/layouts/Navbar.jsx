@@ -24,7 +24,7 @@ export const Navbar = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-sm font-extrabold tracking-wider text-white uppercase group-hover:text-zinc-200 transition-colors">
-                  Antigravity
+                  Cineva
                 </span>
                 <span className="text-[9px] tracking-[0.25em] text-zinc-400 uppercase font-semibold -mt-1">
                   Cinemas

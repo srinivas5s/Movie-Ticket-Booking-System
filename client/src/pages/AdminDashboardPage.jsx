@@ -236,7 +236,7 @@ export const AdminDashboardPage = () => {
                 <div>
                   <CardTitle>Configured Cinema Markets ({cities.length})</CardTitle>
                   <CardDescription>
-                    All active and deactivated city locations within the Antigravity network.
+                    All active and deactivated city locations within the Cineva network.
                   </CardDescription>
                 </div>
                 <Button variant="ghost" size="sm" onClick={() => refetch()} className="text-xs">

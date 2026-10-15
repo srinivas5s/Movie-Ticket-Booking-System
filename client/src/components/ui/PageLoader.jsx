@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spinner } from './Spinner';
 
-export const PageLoader = ({ message = 'Loading Antigravity...' }) => {
+export const PageLoader = ({ message = 'Loading Cineva...' }) => {
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center">
       <div className="relative flex items-center justify-center mb-4">

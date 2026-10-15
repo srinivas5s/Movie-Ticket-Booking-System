@@ -52,7 +52,7 @@ console.log('✓ Zod schemas validation passed.');
 
 // 2. Test Password Hashing with bcryptjs
 console.log('2. Testing Bcrypt Password Hashing & Comparison...');
-const plainText = 'AntigravitySecretPassword!';
+const plainText = 'CinevaSecretPassword!';
 const salt = bcrypt.genSaltSync(10);
 const hashed = bcrypt.hashSync(plainText, salt);
 assert.notStrictEqual(plainText, hashed);
